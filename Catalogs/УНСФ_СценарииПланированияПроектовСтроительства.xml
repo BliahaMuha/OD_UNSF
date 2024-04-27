@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="06aa9d14-467d-461c-af35-6d9d01b6c2fd">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УНСФ_СценарииПланированияПроектовСтроительства" category="Object">
+				<xr:TypeId>7906fe6e-e647-4159-ae87-6c242508d789</xr:TypeId>
+				<xr:ValueId>ead62a48-4c6e-4980-85a5-7801479ceeff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УНСФ_СценарииПланированияПроектовСтроительства" category="Ref">
+				<xr:TypeId>000e5d2b-f9c9-4201-93f5-885653693016</xr:TypeId>
+				<xr:ValueId>ba14e8d2-8858-47f9-ba53-06075475aa27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УНСФ_СценарииПланированияПроектовСтроительства" category="Selection">
+				<xr:TypeId>e9fd3e9d-34f1-4ca8-8b25-e58097a5b940</xr:TypeId>
+				<xr:ValueId>c698c67d-6e1a-4b12-9139-cb30a2d869ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УНСФ_СценарииПланированияПроектовСтроительства" category="List">
+				<xr:TypeId>ef8401f5-b3d4-4bf9-af1a-3a692f10f6e1</xr:TypeId>
+				<xr:ValueId>9ea1e870-b944-418d-9e43-30e1adb6267e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УНСФ_СценарииПланированияПроектовСтроительства" category="Manager">
+				<xr:TypeId>3ecd2e11-559e-4c9e-9ad1-8e95ba315abb</xr:TypeId>
+				<xr:ValueId>4bc67f7a-146a-4c51-b7ae-da7ee3a23973</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УНСФ_СценарииПланированияПроектовСтроительства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1861a6b5-b12c-4a26-a557-ff140e510b38</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

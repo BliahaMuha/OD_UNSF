@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AccumulationRegister uuid="60cbd470-d685-4caa-af4f-51cad97133e1">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.РасчетыСПоставщиками" category="Record">
+				<xr:TypeId>57bec6a3-e1b8-4f5a-bde9-f454462159ca</xr:TypeId>
+				<xr:ValueId>0781e81c-e6c3-4f4c-bcbe-b5ba428f7585</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.РасчетыСПоставщиками" category="Manager">
+				<xr:TypeId>bb5a8728-4558-4afa-b1fc-012e7d8fc52c</xr:TypeId>
+				<xr:ValueId>bec51ea3-9497-475b-8849-afd47beacb5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.РасчетыСПоставщиками" category="Selection">
+				<xr:TypeId>45bc9f04-b689-4254-bd53-0b1b957d76ea</xr:TypeId>
+				<xr:ValueId>5db50219-28df-471a-adc0-bb9995f81f0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.РасчетыСПоставщиками" category="List">
+				<xr:TypeId>020bb56d-5da6-4c48-81df-f42ea42fbb0c</xr:TypeId>
+				<xr:ValueId>600e2d58-0803-45bb-97eb-d0bff2e98d45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.РасчетыСПоставщиками" category="RecordSet">
+				<xr:TypeId>85a36df7-13fb-4fb3-b951-5314056f63ed</xr:TypeId>
+				<xr:ValueId>daea9075-83d9-4375-beb5-a6eaea1396de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.РасчетыСПоставщиками" category="RecordKey">
+				<xr:TypeId>eddbb681-06ee-4525-9a34-dc186fad4a12</xr:TypeId>
+				<xr:ValueId>dde3be9e-2567-458c-9ba6-c790b221b5bd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасчетыСПоставщиками</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c2779c70-a371-41a2-94d6-ba33da6e2a60</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0d079966-97ff-4616-be4f-fcf932331779">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8b664c11-46c2-48b5-9d73-2291b4fae88e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="8d9069f2-a5bc-4e88-8dae-d1b1e7e9552e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3b26cd7d-5842-4877-a1b0-439945b7bf5c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="cc564f53-50bd-422c-9f7a-8ba1b62e69dc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заказ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b76c32b-766d-4f05-a4c0-40af7d9cb692</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

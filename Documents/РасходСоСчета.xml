@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="ef8058b0-45cb-41bb-946f-8094308c2f92">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасходСоСчета" category="Object">
+				<xr:TypeId>36fc5046-a550-446a-aabd-619c960e65a3</xr:TypeId>
+				<xr:ValueId>986f4996-32ad-4983-bb22-7356ff7019c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасходСоСчета" category="Ref">
+				<xr:TypeId>b7585c81-d6dd-40b8-b1a8-05cb23ff4cdb</xr:TypeId>
+				<xr:ValueId>82a6e4e5-7070-405a-92dd-91f5eac4a445</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасходСоСчета" category="Selection">
+				<xr:TypeId>e205dec4-39b5-4e7e-9e2a-2e2b6fec3375</xr:TypeId>
+				<xr:ValueId>667711be-11e4-40e1-ba71-896eb5b78196</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасходСоСчета" category="List">
+				<xr:TypeId>f01c9528-4c7c-49e3-abfc-179960c4a844</xr:TypeId>
+				<xr:ValueId>be88173d-8c6c-40ba-aed7-e3ebcd353b42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасходСоСчета" category="Manager">
+				<xr:TypeId>e88e5ff0-33bb-40e3-a187-ce79a005f602</xr:TypeId>
+				<xr:ValueId>82e01ac0-746c-4ca0-8aa5-493b7dbec1c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасходСоСчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6ea99190-7a64-4745-85dc-646d18445bb4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="51777366-8617-4e97-a921-3eecacac4637">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РасходСоСчета.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>c54cbd8b-e6be-4652-9853-cbb0cca5907b</xr:TypeId>
+						<xr:ValueId>1b7c5561-fa86-43af-89a8-0f9c94101ab0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РасходСоСчета.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>f7b776c7-c5ae-4af3-b9ba-ca4d02cb7cb0</xr:TypeId>
+						<xr:ValueId>9c27d04b-ec7a-45ed-b996-fe7bc89804ac</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0db809d9-0b0d-4a5f-936f-e972c261e2b5</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b64b61e1-749b-447a-aaef-d133dab37e14">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c1fa3afe-af8d-4d65-90ba-9e2fbd874153</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКомандаСоздатьРасценку" id="115">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКомандаСоздатьРасценкуРасширеннаяПодсказка" id="116"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаНаименованиеКод" id="84">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наименование код</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="85"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="СуммаПозицииФайла" id="102">
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="СуммаПозицииФайлаКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="СуммаПозицииФайлаРасширеннаяПодсказка" id="104"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРасценкаРодитель" id="94">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа расценка родитель</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРасценкаРодительРасширеннаяПодсказка" id="95"/>
+			<ChildItems>
+				<InputField name="Расценка" id="7">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РасценкаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="РасценкаРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="Родитель" id="91">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Раздел</v8:content>
+						</v8:item>
+					</Title>
+					<ChoiceParameterLinks>
+						<xr:Link>
+							<xr:Name>Отбор.Владелец</xr:Name>
+							<xr:DataPath xsi:type="xs:string">1/-5</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+					</ChoiceParameterLinks>
+					<ChoiceParameters>
+						<app:item name="Отбор.РазделСметы">
+							<app:value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xs:boolean">true</Value>
+							</app:value>
+						</app:item>
+					</ChoiceParameters>
+					<ContextMenu name="РодительКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="93"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ВидРабот" id="112">
+			<ContextMenu name="ВидРаботКонтекстноеМеню" id="113"/>
+			<ExtendedTooltip name="ВидРаботРасширеннаяПодсказка" id="114"/>
+		</InputField>
+		<UsualGroup name="ГруппаОбъемЕдиницаСумма" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа объем единица сумма</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбъемЕдиницаСуммаРасширеннаяПодсказка" id="87"/>
+			<ChildItems>
+				<InputField name="Объем" id="72">
+					<ContextMenu name="ОбъемКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="ОбъемРасширеннаяПодсказка" id="74"/>
+				</InputField>
+				<InputField name="ЕдиницаИзмерения" id="75">
+					<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="77"/>
+				</InputField>
+				<InputField name="СуммаПозицииРазделСметы" id="81">
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="СуммаПозицииРазделСметыКонтекстноеМеню" id="82"/>
+					<ExtendedTooltip name="СуммаПозицииРазделСметыРасширеннаяПодсказка" id="83"/>
+				</InputField>
+				<InputField name="СуммаПозиции" id="78">
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="СуммаПозицииКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="СуммаПозицииРасширеннаяПодсказка" id="80"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<Page name="ГруппаРесурсы" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ресурсы</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаРесурсыРасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<Table name="Ресурсы" id="14">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РесурсыКонтекстноеМеню" id="15"/>
+							<AutoCommandBar name="РесурсыКоманднаяПанель" id="16"/>
+							<ExtendedTooltip name="РесурсыРасширеннаяПодсказка" id="17"/>
+							<SearchStringAddition name="РесурсыСтрокаПоиска" id="18">
+								<AdditionSource>
+									<Item>Ресурсы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РесурсыСтрокаПоискаКонтекстноеМеню" id="19"/>
+								<ExtendedTooltip name="РесурсыСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РесурсыСостояниеПросмотра" id="21">
+								<AdditionSource>
+									<Item>Ресурсы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РесурсыСостояниеПросмотраКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="РесурсыСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РесурсыУправлениеПоиском" id="24">
+								<AdditionSource>
+									<Item>Ресурсы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РесурсыУправлениеПоискомКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="РесурсыУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РесурсыНомерСтроки" id="27">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РесурсыНомерСтрокиКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="РесурсыНомерСтрокиРасширеннаяПодсказка" id="29"/>
+								</LabelField>
+								<InputField name="РесурсыРесурсВидРесурса" id="105">
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РесурсыРесурсВидРесурсаКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="РесурсыРесурсВидРесурсаРасширеннаяПодсказка" id="107"/>
+								</InputField>
+								<InputField name="РесурсыРесурс" id="30">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РесурсыРесурсКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="РесурсыРесурсРасширеннаяПодсказка" id="32"/>
+								</InputField>
+								<ColumnGroup name="РесурсыГруппаКоличество" id="108">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Количество</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="РесурсыГруппаКоличествоРасширеннаяПодсказка" id="109"/>
+									<ChildItems>
+										<InputField name="РесурсыКоличество" id="33">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>на ед.</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<Width>10</Width>
+											<ContextMenu name="РесурсыКоличествоКонтекстноеМеню" id="34"/>
+											<ExtendedTooltip name="РесурсыКоличествоРасширеннаяПодсказка" id="35"/>
+										</InputField>
+										<InputField name="РесурсыКоличествоВсего" id="96">
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>всего</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<Width>10</Width>
+											<ContextMenu name="РесурсыКоличествоВсегоКонтекстноеМеню" id="97"/>
+											<ExtendedTooltip name="РесурсыКоличествоВсегоРасширеннаяПодсказка" id="98"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="РесурсыЦена" id="60">
+									<EditMode>EnterOnInput</EditMode>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<Width>10</Width>
+									<ContextMenu name="РесурсыЦенаКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="РесурсыЦенаРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="РесурсыСумма" id="63">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<Width>10</Width>
+									<ContextMenu name="РесурсыСуммаКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="РесурсыСуммаРасширеннаяПодсказка" id="65"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаМатериалы" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Материалы</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаМатериалыРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<Table name="Материалы" id="38">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="МатериалыКонтекстноеМеню" id="39"/>
+							<AutoCommandBar name="МатериалыКоманднаяПанель" id="40">
+								<ChildItems>
+									<Button name="МатериалыЗагрузитьМатериалыИзФайла" id="147">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="МатериалыЗагрузитьМатериалыИзФайлаРасширеннаяПодсказка" id="148"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="МатериалыРасширеннаяПодсказка" id="41"/>
+							<SearchStringAddition name="МатериалыСтрокаПоиска" id="42">
+								<AdditionSource>
+									<Item>Материалы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МатериалыСтрокаПоискаКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="МатериалыСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="МатериалыСостояниеПросмотра" id="45">
+								<AdditionSource>
+									<Item>Материалы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="МатериалыСостояниеПросмотраКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="МатериалыУправлениеПоиском" id="48">
+								<AdditionSource>
+									<Item>Материалы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="МатериалыУправлениеПоискомКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="МатериалыУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="МатериалыНомерСтроки" id="51">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="МатериалыНомерСтрокиРасширеннаяПодсказка" id="53"/>
+								</LabelField>
+								<InputField name="МатериалыНоменклатура" id="54">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="МатериалыНоменклатураКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="МатериалыНоменклатураРасширеннаяПодсказка" id="56"/>
+								</InputField>
+								<InputField name="МатериалыХарактеристика" id="144">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<CreateButton>false</CreateButton>
+									<ContextMenu name="МатериалыХарактеристикаКонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="МатериалыХарактеристикаРасширеннаяПодсказка" id="146"/>
+								</InputField>
+								<InputField name="МатериалыНоменклатураЕдиницаИзмерения" id="141">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ед.</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>5</Width>
+									<Wrap>false</Wrap>
+									<DropListButton>true</DropListButton>
+									<ChoiceButton>false</ChoiceButton>
+									<OpenButton>true</OpenButton>
+									<ChooseType>false</ChooseType>
+									<ContextMenu name="МатериалыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="МатериалыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="143"/>
+								</InputField>
+								<ColumnGroup name="МатериалыГруппаКоличество" id="110">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Количество</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<ExtendedTooltip name="МатериалыГруппаКоличествоРасширеннаяПодсказка" id="111"/>
+									<ChildItems>
+										<InputField name="МатериалыКоличество" id="57">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>на ед.</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<Width>10</Width>
+											<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="58"/>
+											<ExtendedTooltip name="МатериалыКоличествоРасширеннаяПодсказка" id="59"/>
+										</InputField>
+										<InputField name="МатериалыКоличествоВсего" id="99">
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>всего</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+											<Width>10</Width>
+											<ContextMenu name="МатериалыКоличествоВсегоКонтекстноеМеню" id="100"/>
+											<ExtendedTooltip name="МатериалыКоличествоВсегоРасширеннаяПодсказка" id="101"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="МатериалыЦена" id="66">
+									<EditMode>EnterOnInput</EditMode>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<Width>10</Width>
+									<ContextMenu name="МатериалыЦенаКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="МатериалыЦенаРасширеннаяПодсказка" id="68"/>
+								</InputField>
+								<InputField name="МатериалыСумма" id="69">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+									<Width>10</Width>
+									<ContextMenu name="МатериалыСуммаКонтекстноеМеню" id="70"/>
+									<ExtendedTooltip name="МатериалыСуммаРасширеннаяПодсказка" id="71"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаКонструктивы" id="117">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конструктивы</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаКонструктивыРасширеннаяПодсказка" id="118"/>
+					<ChildItems>
+						<Table name="Конструктивы" id="119">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КонструктивыКонтекстноеМеню" id="120"/>
+							<AutoCommandBar name="КонструктивыКоманднаяПанель" id="121"/>
+							<ExtendedTooltip name="КонструктивыРасширеннаяПодсказка" id="122"/>
+							<SearchStringAddition name="КонструктивыСтрокаПоиска" id="123">
+								<AdditionSource>
+									<Item>Конструктивы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КонструктивыСтрокаПоискаКонтекстноеМеню" id="124"/>
+								<ExtendedTooltip name="КонструктивыСтрокаПоискаРасширеннаяПодсказка" id="125"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КонструктивыСостояниеПросмотра" id="126">
+								<AdditionSource>
+									<Item>Конструктивы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КонструктивыСостояниеПросмотраКонтекстноеМеню" id="127"/>
+								<ExtendedTooltip name="КонструктивыСостояниеПросмотраРасширеннаяПодсказка" id="128"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КонструктивыУправлениеПоиском" id="129">
+								<AdditionSource>
+									<Item>Конструктивы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КонструктивыУправлениеПоискомКонтекстноеМеню" id="130"/>
+								<ExtendedTooltip name="КонструктивыУправлениеПоискомРасширеннаяПодсказка" id="131"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="КонструктивыНомерСтроки" id="132">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КонструктивыНомерСтрокиКонтекстноеМеню" id="133"/>
+									<ExtendedTooltip name="КонструктивыНомерСтрокиРасширеннаяПодсказка" id="134"/>
+								</LabelField>
+								<InputField name="КонструктивыКонструктив" id="135">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Идентификатор</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Владелец</xr:Name>
+											<xr:DataPath xsi:type="xs:string">3</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="КонструктивыКонструктивКонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="КонструктивыКонструктивРасширеннаяПодсказка" id="137"/>
+								</InputField>
+								<InputField name="КонструктивыНаименованиеПолное" id="138">
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наименование</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КонструктивыНаименованиеПолноеКонтекстноеМеню" id="139"/>
+									<ExtendedTooltip name="КонструктивыНаименованиеПолноеРасширеннаяПодсказка" id="140"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Комментарий" id="88">
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="89"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="90"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Ресурсы</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Ресурсы.ВидРесурса</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#0000FF</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.16">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаКомандаСоздатьРасценку" id="115">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКомандаСоздатьРасценкуРасширеннаяПодсказка" id="116"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаНаименованиеКод" id="84">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа наименование код</v8:content>
+					</v8:item>
+				</Title>
+				<Group>AlwaysHorizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="85"/>
+				<ChildItems>
+					<InputField name="Наименование" id="4">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+					</InputField>
+					<InputField name="Код" id="1">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+					</InputField>
+					<InputField name="СуммаПозицииФайла" id="102">
+						<ReadOnly>true</ReadOnly>
+						<ContextMenu name="СуммаПозицииФайлаКонтекстноеМеню" id="103"/>
+						<ExtendedTooltip name="СуммаПозицииФайлаРасширеннаяПодсказка" id="104"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаРасценкаРодитель" id="94">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа расценка родитель</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаРасценкаРодительРасширеннаяПодсказка" id="95"/>
+				<ChildItems>
+					<InputField name="Расценка" id="7">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="РасценкаКонтекстноеМеню" id="8"/>
+						<ExtendedTooltip name="РасценкаРасширеннаяПодсказка" id="9"/>
+					</InputField>
+					<InputField name="Родитель" id="91">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Раздел</v8:content>
+							</v8:item>
+						</Title>
+						<ChoiceParameterLinks>
+							<xr:Link>
+								<xr:Name>Отбор.Владелец</xr:Name>
+								<xr:DataPath xsi:type="xs:string">1/-5</xr:DataPath>
+								<xr:ValueChange>Clear</xr:ValueChange>
+							</xr:Link>
+						</ChoiceParameterLinks>
+						<ChoiceParameters>
+							<app:item name="Отбор.РазделСметы">
+								<app:value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation/>
+									<Value xsi:type="xs:boolean">true</Value>
+								</app:value>
+							</app:item>
+						</ChoiceParameters>
+						<ContextMenu name="РодительКонтекстноеМеню" id="92"/>
+						<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="93"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="ВидРабот" id="112">
+				<ContextMenu name="ВидРаботКонтекстноеМеню" id="113"/>
+				<ExtendedTooltip name="ВидРаботРасширеннаяПодсказка" id="114"/>
+			</InputField>
+			<UsualGroup name="ГруппаОбъемЕдиницаСумма" id="86">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа объем единица сумма</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОбъемЕдиницаСуммаРасширеннаяПодсказка" id="87"/>
+				<ChildItems>
+					<InputField name="Объем" id="72">
+						<ContextMenu name="ОбъемКонтекстноеМеню" id="73"/>
+						<ExtendedTooltip name="ОбъемРасширеннаяПодсказка" id="74"/>
+					</InputField>
+					<InputField name="ЕдиницаИзмерения" id="75">
+						<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="76"/>
+						<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="77"/>
+					</InputField>
+					<InputField name="СуммаПозицииРазделСметы" id="81">
+						<ReadOnly>true</ReadOnly>
+						<ContextMenu name="СуммаПозицииРазделСметыКонтекстноеМеню" id="82"/>
+						<ExtendedTooltip name="СуммаПозицииРазделСметыРасширеннаяПодсказка" id="83"/>
+					</InputField>
+					<InputField name="СуммаПозиции" id="78">
+						<ReadOnly>true</ReadOnly>
+						<ContextMenu name="СуммаПозицииКонтекстноеМеню" id="79"/>
+						<ExtendedTooltip name="СуммаПозицииРасширеннаяПодсказка" id="80"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="Страницы" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+				</Title>
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="11"/>
+				<ChildItems>
+					<Page name="ГруппаРесурсы" id="12">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ресурсы</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаРесурсыРасширеннаяПодсказка" id="13"/>
+						<ChildItems>
+							<Table name="Ресурсы" id="14">
+								<Representation>List</Representation>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="РесурсыКонтекстноеМеню" id="15"/>
+								<AutoCommandBar name="РесурсыКоманднаяПанель" id="16"/>
+								<ExtendedTooltip name="РесурсыРасширеннаяПодсказка" id="17"/>
+								<SearchStringAddition name="РесурсыСтрокаПоиска" id="18">
+									<AdditionSource>
+										<Item>Ресурсы</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РесурсыСтрокаПоискаКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="РесурсыСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="РесурсыСостояниеПросмотра" id="21">
+									<AdditionSource>
+										<Item>Ресурсы</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="РесурсыСостояниеПросмотраКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="РесурсыСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="РесурсыУправлениеПоиском" id="24">
+									<AdditionSource>
+										<Item>Ресурсы</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="РесурсыУправлениеПоискомКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="РесурсыУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="РесурсыНомерСтроки" id="27">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="РесурсыНомерСтрокиКонтекстноеМеню" id="28"/>
+										<ExtendedTooltip name="РесурсыНомерСтрокиРасширеннаяПодсказка" id="29"/>
+									</LabelField>
+									<InputField name="РесурсыРесурсВидРесурса" id="105">
+										<Visible>false</Visible>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="РесурсыРесурсВидРесурсаКонтекстноеМеню" id="106"/>
+										<ExtendedTooltip name="РесурсыРесурсВидРесурсаРасширеннаяПодсказка" id="107"/>
+									</InputField>
+									<InputField name="РесурсыРесурс" id="30">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="РесурсыРесурсКонтекстноеМеню" id="31"/>
+										<ExtendedTooltip name="РесурсыРесурсРасширеннаяПодсказка" id="32"/>
+									</InputField>
+									<ColumnGroup name="РесурсыГруппаКоличество" id="108">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Количество</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="РесурсыГруппаКоличествоРасширеннаяПодсказка" id="109"/>
+										<ChildItems>
+											<InputField name="РесурсыКоличество" id="33">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>на ед.</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<Width>10</Width>
+												<ContextMenu name="РесурсыКоличествоКонтекстноеМеню" id="34"/>
+												<ExtendedTooltip name="РесурсыКоличествоРасширеннаяПодсказка" id="35"/>
+											</InputField>
+											<InputField name="РесурсыКоличествоВсего" id="96">
+												<ReadOnly>true</ReadOnly>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>всего</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<Width>10</Width>
+												<ContextMenu name="РесурсыКоличествоВсегоКонтекстноеМеню" id="97"/>
+												<ExtendedTooltip name="РесурсыКоличествоВсегоРасширеннаяПодсказка" id="98"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="РесурсыЦена" id="60">
+										<EditMode>EnterOnInput</EditMode>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<Width>10</Width>
+										<ContextMenu name="РесурсыЦенаКонтекстноеМеню" id="61"/>
+										<ExtendedTooltip name="РесурсыЦенаРасширеннаяПодсказка" id="62"/>
+									</InputField>
+									<InputField name="РесурсыСумма" id="63">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<Width>10</Width>
+										<ContextMenu name="РесурсыСуммаКонтекстноеМеню" id="64"/>
+										<ExtendedTooltip name="РесурсыСуммаРасширеннаяПодсказка" id="65"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаМатериалы" id="36">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Материалы</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаМатериалыРасширеннаяПодсказка" id="37"/>
+						<ChildItems>
+							<Table name="Материалы" id="38">
+								<Representation>List</Representation>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="МатериалыКонтекстноеМеню" id="39"/>
+								<AutoCommandBar name="МатериалыКоманднаяПанель" id="40">
+									<ChildItems>
+										<Button name="МатериалыЗагрузитьМатериалыИзФайла" id="147">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="МатериалыЗагрузитьМатериалыИзФайлаРасширеннаяПодсказка" id="148"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="МатериалыРасширеннаяПодсказка" id="41"/>
+								<SearchStringAddition name="МатериалыСтрокаПоиска" id="42">
+									<AdditionSource>
+										<Item>Материалы</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="МатериалыСтрокаПоискаКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="МатериалыСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="МатериалыСостояниеПросмотра" id="45">
+									<AdditionSource>
+										<Item>Материалы</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="МатериалыСостояниеПросмотраКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="МатериалыУправлениеПоиском" id="48">
+									<AdditionSource>
+										<Item>Материалы</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="МатериалыУправлениеПоискомКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="МатериалыУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="МатериалыНомерСтроки" id="51">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="52"/>
+										<ExtendedTooltip name="МатериалыНомерСтрокиРасширеннаяПодсказка" id="53"/>
+									</LabelField>
+									<InputField name="МатериалыНоменклатура" id="54">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="МатериалыНоменклатураКонтекстноеМеню" id="55"/>
+										<ExtendedTooltip name="МатериалыНоменклатураРасширеннаяПодсказка" id="56"/>
+									</InputField>
+									<InputField name="МатериалыХарактеристика" id="144">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>20</Width>
+										<CreateButton>false</CreateButton>
+										<ContextMenu name="МатериалыХарактеристикаКонтекстноеМеню" id="145"/>
+										<ExtendedTooltip name="МатериалыХарактеристикаРасширеннаяПодсказка" id="146"/>
+									</InputField>
+									<InputField name="МатериалыНоменклатураЕдиницаИзмерения" id="141">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Ед.</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>5</Width>
+										<Wrap>false</Wrap>
+										<DropListButton>true</DropListButton>
+										<ChoiceButton>false</ChoiceButton>
+										<OpenButton>true</OpenButton>
+										<ChooseType>false</ChooseType>
+										<ContextMenu name="МатериалыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="142"/>
+										<ExtendedTooltip name="МатериалыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="143"/>
+									</InputField>
+									<ColumnGroup name="МатериалыГруппаКоличество" id="110">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Количество</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<ShowInHeader>true</ShowInHeader>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<ExtendedTooltip name="МатериалыГруппаКоличествоРасширеннаяПодсказка" id="111"/>
+										<ChildItems>
+											<InputField name="МатериалыКоличество" id="57">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>на ед.</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<Width>10</Width>
+												<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="58"/>
+												<ExtendedTooltip name="МатериалыКоличествоРасширеннаяПодсказка" id="59"/>
+											</InputField>
+											<InputField name="МатериалыКоличествоВсего" id="99">
+												<ReadOnly>true</ReadOnly>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>всего</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+												<Width>10</Width>
+												<ContextMenu name="МатериалыКоличествоВсегоКонтекстноеМеню" id="100"/>
+												<ExtendedTooltip name="МатериалыКоличествоВсегоРасширеннаяПодсказка" id="101"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+									<InputField name="МатериалыЦена" id="66">
+										<EditMode>EnterOnInput</EditMode>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<Width>10</Width>
+										<ContextMenu name="МатериалыЦенаКонтекстноеМеню" id="67"/>
+										<ExtendedTooltip name="МатериалыЦенаРасширеннаяПодсказка" id="68"/>
+									</InputField>
+									<InputField name="МатериалыСумма" id="69">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+										<Width>10</Width>
+										<ContextMenu name="МатериалыСуммаКонтекстноеМеню" id="70"/>
+										<ExtendedTooltip name="МатериалыСуммаРасширеннаяПодсказка" id="71"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаКонструктивы" id="117">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Конструктивы</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаКонструктивыРасширеннаяПодсказка" id="118"/>
+						<ChildItems>
+							<Table name="Конструктивы" id="119">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="КонструктивыКонтекстноеМеню" id="120"/>
+								<AutoCommandBar name="КонструктивыКоманднаяПанель" id="121"/>
+								<ExtendedTooltip name="КонструктивыРасширеннаяПодсказка" id="122"/>
+								<SearchStringAddition name="КонструктивыСтрокаПоиска" id="123">
+									<AdditionSource>
+										<Item>Конструктивы</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="КонструктивыСтрокаПоискаКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="КонструктивыСтрокаПоискаРасширеннаяПодсказка" id="125"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="КонструктивыСостояниеПросмотра" id="126">
+									<AdditionSource>
+										<Item>Конструктивы</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="КонструктивыСостояниеПросмотраКонтекстноеМеню" id="127"/>
+									<ExtendedTooltip name="КонструктивыСостояниеПросмотраРасширеннаяПодсказка" id="128"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="КонструктивыУправлениеПоиском" id="129">
+									<AdditionSource>
+										<Item>Конструктивы</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="КонструктивыУправлениеПоискомКонтекстноеМеню" id="130"/>
+									<ExtendedTooltip name="КонструктивыУправлениеПоискомРасширеннаяПодсказка" id="131"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="КонструктивыНомерСтроки" id="132">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КонструктивыНомерСтрокиКонтекстноеМеню" id="133"/>
+										<ExtendedTooltip name="КонструктивыНомерСтрокиРасширеннаяПодсказка" id="134"/>
+									</LabelField>
+									<InputField name="КонструктивыКонструктив" id="135">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Идентификатор</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<ChoiceParameterLinks>
+											<xr:Link>
+												<xr:Name>Отбор.Владелец</xr:Name>
+												<xr:DataPath xsi:type="xs:string">3</xr:DataPath>
+												<xr:ValueChange>Clear</xr:ValueChange>
+											</xr:Link>
+										</ChoiceParameterLinks>
+										<ContextMenu name="КонструктивыКонструктивКонтекстноеМеню" id="136"/>
+										<ExtendedTooltip name="КонструктивыКонструктивРасширеннаяПодсказка" id="137"/>
+									</InputField>
+									<InputField name="КонструктивыНаименованиеПолное" id="138">
+										<ReadOnly>true</ReadOnly>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Наименование</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="КонструктивыНаименованиеПолноеКонтекстноеМеню" id="139"/>
+										<ExtendedTooltip name="КонструктивыНаименованиеПолноеРасширеннаяПодсказка" id="140"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<InputField name="Комментарий" id="88">
+				<ContextMenu name="КомментарийКонтекстноеМеню" id="89"/>
+				<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="90"/>
+			</InputField>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Ресурсы</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Ресурсы.ВидРесурса</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#0000FF</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

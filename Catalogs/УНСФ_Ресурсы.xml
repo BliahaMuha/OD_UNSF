@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="34ef8f12-0908-44f6-ba93-a78f80ff48d4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УНСФ_Ресурсы" category="Object">
+				<xr:TypeId>af73772b-d76c-4a80-bdcc-a637aef69b73</xr:TypeId>
+				<xr:ValueId>68712f1d-0202-4c61-9071-122a30b06400</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УНСФ_Ресурсы" category="Ref">
+				<xr:TypeId>299258b5-8030-4637-8f13-959503d69157</xr:TypeId>
+				<xr:ValueId>ede79898-0610-4d6e-bc31-1e661746344d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УНСФ_Ресурсы" category="Selection">
+				<xr:TypeId>1094a154-a59a-4ba5-b0fe-f54cbe41956d</xr:TypeId>
+				<xr:ValueId>59908a27-eb44-4c0e-993f-c45253388997</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УНСФ_Ресурсы" category="List">
+				<xr:TypeId>8b21ce3b-b795-4937-835c-02736ef5e58d</xr:TypeId>
+				<xr:ValueId>ba240fba-e67e-44f6-bf97-8f8ff18f7adf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УНСФ_Ресурсы" category="Manager">
+				<xr:TypeId>52d30476-984d-405f-9d34-92f68bf784e7</xr:TypeId>
+				<xr:ValueId>5c79d2f2-e294-4424-aa1f-6e6d7ce289a7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УНСФ_Ресурсы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3688d45d-9703-4577-81d6-4affe5fbcf1d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

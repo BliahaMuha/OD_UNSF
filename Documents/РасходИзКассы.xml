@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="111552a6-855c-463f-93fe-32f498ce82c7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасходИзКассы" category="Object">
+				<xr:TypeId>6805e439-3673-4c39-bcf3-d0ecee09ea3f</xr:TypeId>
+				<xr:ValueId>102b82f7-83d7-471e-b43c-47950cf27666</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасходИзКассы" category="Ref">
+				<xr:TypeId>42dbb5f6-af78-4355-afca-b24b557e4f12</xr:TypeId>
+				<xr:ValueId>4d1e4de8-912a-44d5-8abe-9c3de5a2e480</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасходИзКассы" category="Selection">
+				<xr:TypeId>af3ad444-73a3-433f-8e34-433172d298ff</xr:TypeId>
+				<xr:ValueId>17fc2ca6-11cf-4baf-80ee-55fa6a88c443</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасходИзКассы" category="List">
+				<xr:TypeId>c1b4849e-9ff7-4df6-8d89-79c5df41baef</xr:TypeId>
+				<xr:ValueId>651150c7-54f3-4e25-b958-a11b6e9895d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасходИзКассы" category="Manager">
+				<xr:TypeId>e4b75107-9980-47c1-a15b-ec7856e95693</xr:TypeId>
+				<xr:ValueId>0055c357-b1d2-43a9-b318-9e7df5e7e4b5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасходИзКассы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6904862f-9209-4970-b2d7-4e1b473c6807</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

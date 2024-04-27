@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="96a9c6b4-09dd-4ca6-ac9b-0499a2e1bfa6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УНСФ_СметныеРасценки" category="Object">
+				<xr:TypeId>3edd0b9b-f024-4803-b67a-e50111ec5142</xr:TypeId>
+				<xr:ValueId>d1224404-1579-43b1-8e42-bf90fe671977</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УНСФ_СметныеРасценки" category="Ref">
+				<xr:TypeId>00ac4e8d-7399-4d06-bc4a-1dda2641537a</xr:TypeId>
+				<xr:ValueId>73750f0f-b3d9-424b-8da4-81926b536495</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УНСФ_СметныеРасценки" category="Selection">
+				<xr:TypeId>ca9bf8ab-4b88-4989-ba40-30d9d83eb4fa</xr:TypeId>
+				<xr:ValueId>dfa1ba76-e54c-4e3f-be17-e1486c2128f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УНСФ_СметныеРасценки" category="List">
+				<xr:TypeId>15df0020-898a-4766-929f-b3b4dc335681</xr:TypeId>
+				<xr:ValueId>12037c02-d5ff-42b6-aae9-cc6103218e2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УНСФ_СметныеРасценки" category="Manager">
+				<xr:TypeId>369713b6-e315-4249-adc1-032b6a2a4e5a</xr:TypeId>
+				<xr:ValueId>58e7e1d1-f9f6-4bfc-b017-7b9daffbe479</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УНСФ_СметныеРасценки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3b9f770f-6876-413d-b76a-92ecec45b06e</ExtendedConfigurationObject>
+			<Hierarchical>true</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+		</Properties>
+		<ChildObjects>
+			<Form>ОД_ПодборСметныхРасценокРаздел</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

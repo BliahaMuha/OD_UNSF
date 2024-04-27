@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="ddf48764-77c9-47b9-b1e5-da55e5847878">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УНСФ_Смета" category="Object">
+				<xr:TypeId>db7aa03e-4ebc-4a4d-a3d5-4619373eeb4a</xr:TypeId>
+				<xr:ValueId>eb51f551-eda2-4de7-8a50-258aa14f7a07</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УНСФ_Смета" category="Ref">
+				<xr:TypeId>2412afb4-72ff-455f-b8ee-81349d2232ad</xr:TypeId>
+				<xr:ValueId>e0317bc5-c5b1-48da-aa8a-06d341919b8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УНСФ_Смета" category="Selection">
+				<xr:TypeId>a2f3db7a-c05f-40b6-8662-45e0e5f2ee7e</xr:TypeId>
+				<xr:ValueId>7503d10e-07fb-4af1-84e0-7b4b6d618865</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УНСФ_Смета" category="List">
+				<xr:TypeId>d63f8dbe-da20-4d43-a585-e4d23fa98e89</xr:TypeId>
+				<xr:ValueId>19a95d62-b280-494e-b500-ea57e80f295c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УНСФ_Смета" category="Manager">
+				<xr:TypeId>28afb410-49a0-475a-97ae-8e058b68e1e1</xr:TypeId>
+				<xr:ValueId>897d115f-17f1-445b-a07e-ac6c922b9d3e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УНСФ_Смета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0daa5c81-4e14-4a75-aa01-89acdd70a1c3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

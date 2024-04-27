@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<DefinedType uuid="aac9aa1b-fe02-4845-bced-66c1b8f4bbea">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ОбъектСУчетомОригиналовПервичныхДокументов" category="DefinedType">
+				<xr:TypeId>b2613beb-db5f-4ece-ba21-3b3d850d4f0b</xr:TypeId>
+				<xr:ValueId>b043975f-f172-4f78-98f3-c4c893fa4f46</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектСУчетомОригиналовПервичныхДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bf5faaef-3a03-40bc-8d3a-644c0874b9ce</ExtendedConfigurationObject>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<InformationRegister uuid="68152e93-4920-468d-890f-1c165f748b57">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СотрудникиПользователя" category="Record">
+				<xr:TypeId>b138563d-fd0e-4fa4-ba69-03de969f9c1a</xr:TypeId>
+				<xr:ValueId>960cf315-4948-4d1e-897f-f319cad6de99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СотрудникиПользователя" category="Manager">
+				<xr:TypeId>84673c9f-f7c3-4cf5-9119-ead80414df7f</xr:TypeId>
+				<xr:ValueId>27a1ecce-f4c7-417d-8a57-a172a72fcd4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СотрудникиПользователя" category="Selection">
+				<xr:TypeId>339991c4-912c-4b98-af1e-157461b5e454</xr:TypeId>
+				<xr:ValueId>63b91513-ce98-4739-b110-8442c32d9a25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СотрудникиПользователя" category="List">
+				<xr:TypeId>5cae65d9-65e9-4d6c-be0d-897636be42c3</xr:TypeId>
+				<xr:ValueId>c1a96335-ceda-4e64-b12e-be3dd7c85bd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СотрудникиПользователя" category="RecordSet">
+				<xr:TypeId>6c0a3cff-0724-4885-a584-cc2ffa6e9ee1</xr:TypeId>
+				<xr:ValueId>d88624d3-5b6a-4572-9283-782c525b1a17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СотрудникиПользователя" category="RecordKey">
+				<xr:TypeId>af12dbeb-a7a2-4897-ad8c-11ddee296976</xr:TypeId>
+				<xr:ValueId>4ba7ee5a-edb5-47fe-8c16-5cf7510e8621</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СотрудникиПользователя" category="RecordManager">
+				<xr:TypeId>0794f4f0-0c9d-42d7-9866-d898ca5d528f</xr:TypeId>
+				<xr:ValueId>eea34933-f07a-4ee6-b4cc-501b5b14d457</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СотрудникиПользователя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>757dfba3-fc4f-4273-83b6-a8ae50a685e2</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="d3f41fdb-9f82-40ea-91a6-5d1f2a452b01">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a308f209-e995-4560-a1a3-9c98ac77dbd3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7b594f81-d415-4ce8-bc26-7377d294776d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>310d5373-bd0f-4c07-9dad-cbc27343c44c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
